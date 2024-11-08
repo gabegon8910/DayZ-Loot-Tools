@@ -313,6 +313,10 @@ save_config_button.grid(row=13, column=0, padx=10, pady=5)
 load_config_button = ttk.Button(frame, text="Load Config", command=load_configuration, style="Rounded.TButton")
 load_config_button.grid(row=13, column=1, padx=10, pady=5)
 
+# Generate button
+generate_button = ttk.Button(frame, text="Generate XML", command=generate_xml, style="Rounded.TButton")
+generate_button.grid(row=12, column=2, padx=10, pady=5)
+
 # Help Button
 help_button = ttk.Button(frame, text="Help", command=show_help, style="Rounded.TButton")
 help_button.grid(row=13, column=2, padx=10, pady=5)
