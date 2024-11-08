@@ -1,3 +1,58 @@
-.venv
-.backup
+# Virtual environment
+.venv/
+
+# Backup folder
+backup/
+
+# Configuration files
 config.json
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+coverage.xml
+*.coveragerc
+
+# pyenv
+.python-version
+
+# dotenv
+.env
+.env.local
+*.env
+
+# IDE files
+.idea/
+.vscode/
+
+# Python cache files
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
