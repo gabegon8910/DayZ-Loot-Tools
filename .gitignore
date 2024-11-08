@@ -11,7 +11,7 @@ config.json
 __pycache__/
 *.py[cod]
 *$py.class
-
+discord.ico
 # Distribution / packaging
 .Python
 build/
